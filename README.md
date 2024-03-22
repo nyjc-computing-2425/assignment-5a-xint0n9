@@ -16,7 +16,7 @@ Define a **function** `to_hms(seconds)` that:
 
 ### Example output
 
-    >>> to_hms(10)
+    >>> to_hms()
     [0, 0, 10]
     >>> to_hms(61)
     [0, 1, 1]
