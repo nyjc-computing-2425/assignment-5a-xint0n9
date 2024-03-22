@@ -22,13 +22,13 @@ def to_hms(seconds: int) -> list:
   """
     # Type your code below
   if type(seconds)!=int or seconds<0:
-    print("Unsupported input type.")
+      print("Unsupported input type.")
   else:
-     minutes, seconds = divmod(seconds, 60)
-     hours, minutes = divmod(minutes, 60)
-     return [hours, minutes, seconds]
+      minutes, seconds = divmod(seconds, 60)
+      hours, minutes = divmod(minutes, 60)
+      return [hours, minutes, seconds]
 
 
-answer = input()
-seconds = answer.strip("to_hms()")
-to_hms(seconds)
+# answer = input()
+# seconds = answer.strip("to_hms()")
+# to_hms(seconds)
